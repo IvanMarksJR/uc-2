@@ -1,0 +1,57 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  background-color: #a855f7;
+}
+.lista-musica {
+  display: flex;
+}
+h3 {
+  text-align: center;
+  color: #ccc;
+}
+.Musicas {
+  width: 300px;
+  border-radius: 10px;
+  background-color: #0f172a;
+  padding: 10px;
+  margin: 5px;
+  align-items: center;
+  text-align: center;
+}
+.Musicas h4 {
+  color: #f97316;
+}
+.Musicas h5 {
+  margin: 5px;
+  color: #f97316;
+}
+.Musicas h6 {
+  margin: 5px;
+  color: #f97316;
+}
+.Musicas img {
+  width: 100%;
+  border-radius: 5px;
+}
+.topo-card-musica {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3px;
+  color: #ab37ee;
+}
+.Musicas audio {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 5px;
+}
+.roda-pe-musica {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 3px;
+  color: #ab37ee;
+}
