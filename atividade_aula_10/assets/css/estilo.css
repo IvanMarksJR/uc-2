@@ -1,0 +1,68 @@
+body {
+  font-family: "Noto Sans JP", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  background-color: #ccc;
+}
+header {
+  background-color: #34efdb;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+}
+header img {
+  width: 200px;
+}
+nav {
+  display: flex;
+  gap: 5px;
+}
+nav button {
+  border: none;
+  padding: 5px;
+  display: flex;
+  border-radius: 5px;
+  color: #ccc;
+  background-color: rgb(00, 45, 87);
+}
+nav button:hover {
+  background-color: rgb(23, 137, 243);
+}
+main {
+  display: flex;
+  padding: 28px;
+  align-items: center;
+}
+.topo {
+  text-align: center;
+  padding: 15px;
+  color: #34efdb;
+  background-color: #4f7afb;
+}
+.card {
+  background-color: #ccc;
+  color: rgb(53, 52, 52);
+  margin: 100px;
+}
+.card h4 {
+  align-items: center;
+  padding: 10px;
+}
+.card p {
+  align-items: center;
+  padding: 10px;
+}
+.card img {
+  max-width: 100%;
+  text-align: left;
+  border-radius: 10px;
+}
+.card-footer {
+  background-color: #ccc;
+  color: rgb(53, 52, 52);
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+}

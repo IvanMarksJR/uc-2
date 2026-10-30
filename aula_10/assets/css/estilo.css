@@ -1,0 +1,32 @@
+body {
+  font-family: "Noto Sans JP", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  background-color: #ccc;
+}
+header {
+  background-color: #34efdb;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+}
+header img {
+  width: 200px;
+}
+nav {
+  display: flex;
+  gap: 5px;
+}
+nav button {
+  border: none;
+  padding: 5px;
+  display: flex;
+  border-radius: 5px;
+  color: #ccc;
+  background-color: rgb(00, 45, 87);
+}
+nav button:hover {
+  background-color: rgb(23, 137, 243);
+}
