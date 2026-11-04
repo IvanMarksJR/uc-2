@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Link css -->
+    <link rel="stylesheet" href="./assets/css/estilo.css" />
+
+    <link rel="author" href="Ivan" />
+
+    <!-- Fonte google rubik -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Imptaçãodo bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe"
+      crossorigin="anonymous"
+    />
+    <!-- Imptaçãodo Icons bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.2/font/bootstrap-icons.min.css"
+    />
+    <title>Formulario de cadastro senac</title>
+  </head>
+  <body>
+    <header>
+      <img
+        src="./assets/img/logo-senac.png"
+        alt="iamgem representanod o topo do site formulario do senac"
+      />
+    </header>
+    <main>
+      <div class="form-cadastro">
+        <h3>Formulario Senac</h3>
+        <form action="" method="get">
+          <div class="uma-coluna">
+            <label for="nome-completo">Nome completo (Sem abreviações, conforme dcomento de identificação)</label>
+            <input type="text" name="nome-completo" />
+          </div>
+          <div class="duas-colunas">
+            <label for="cpf">CPF</label>
+            <input type="number" name="cpf" maxlength="14" />
+
+            <label for="data-nascimetno">Data nascimento</label>
+            <input type="date" name="data-nascimetno" />
+          </div>
+          <div class="duas-colunas">
+            <label for="cep">CEP</label>
+            <input type="number" name="cep" />
+
+            <label for="rua">Rua</label>
+            <input type="text" name="rua" />
+          </div>
+          <div class="duas-coluna">
+            <label for="telefone">Telefone</label>
+            <input type="tel" name="telefone" />
+
+            <label for="email">E-mail</label>
+            <input type="email" name="email" />
+          </div>
+          <div class="tres-coluna">
+            <label for="numero">Número</label>
+            <input type="number" name="numero" />
+
+            <label for="complemento">Complemento</label>
+            <input type="text" name="complemento" />
+
+            <label for="bairro">Bairro</label>
+            <input type="text" name="bairro" />
+          </div>
+          <div class="duas-coluna">
+            <label for="cidade">Cidade</label>
+            <input type="text" name="cidade" />
+
+            <label for="estado">Estado(UF)</label>
+            <input type="text" name="estado" />
+          </div>
+          <div class="tres-coluna">
+                <label for="escolaridade">Escolaridade</label>
+                <select id="escolaridade" name="escolaridade" required>
+                    <option value="">Selecione</option>
+                    <option value="fundamental_incompleto">Fundamental Incompleto</option>
+                    <option value="fundamental_completo">Fundamental Completo</option>
+                    <option value="medio_incompleto">Médio Incompleto</option>
+                    <option value="medio_completo">Médio Completo</option>
+                </select>
+                    <label for="genero">Genero</label>
+                    <select id="genero" name="genero">
+                    <option value="masculino">Masculino</option>
+                    <option value="feminino">Feminino</option>
+                </select>
+                <label for="raca">raça</label>
+                <select id="raca" name="raca">
+                    <option value="branca">Branca</option>
+                    <option value="preta">Preta</option>
+                    <option value="amarela">Amarela</option>
+                    <option value="indigena">Indigena</option>
+                    <option value="prefico-nao-informar">Prefiro não informar</option>
+                </select>
+          </div>
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+    </main>
+    <script
+      type="module"
+      src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-1a/pXj49ZQ1aHEmrJ+gMw1otqoVsYwlEnlD8mIfY2TV03r20Y0CN7uqx1tQogjPL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
