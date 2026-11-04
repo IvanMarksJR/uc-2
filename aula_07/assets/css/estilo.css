@@ -5,6 +5,7 @@ body {
 }
 .lista-produtos {
   display: flex;
+  align-items: center;
 }
 .produto {
   background-color: #ffff;
@@ -43,6 +44,9 @@ body {
   border: none;
   border-radius: 5px;
   background-color: rgb(00, 45, 87);
+}
+.produto button:hover {
+  background: rgb(9, 9, 222);
 }
 .detalhes-produto {
   display: flex;

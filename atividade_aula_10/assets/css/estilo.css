@@ -30,10 +30,10 @@ nav button {
 nav button:hover {
   background-color: rgb(23, 137, 243);
 }
-main {
-  display: flex;
-  padding: 28px;
+p {
+  padding: 10px;
   align-items: center;
+  color: rgb(53, 52, 52);
 }
 .topo {
   text-align: center;
@@ -41,28 +41,51 @@ main {
   color: #34efdb;
   background-color: #4f7afb;
 }
+main {
+  background: #ccc;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  margin: 100x;
+  display: flex;
+}
 .card {
-  background-color: #ccc;
-  color: rgb(53, 52, 52);
-  margin: 100px;
+  background-color: #ffff;
+  width: 100%;
+  padding: 15px;
+  border: 2px solid #ccc;
+  border-radius: 15px;
+  margin: 2px;
 }
 .card h4 {
   align-items: center;
   padding: 10px;
 }
-.card p {
-  align-items: center;
-  padding: 10px;
+.card button {
+  border-radius: 3px;
+  background-color: rgb(53, 52, 52);
+  border: none;
+  cursor: pointer;
+}
+.card button:hover {
+  background-color: rgb(129, 127, 127);
+}
+.card figcaption {
+  color: #ccc;
 }
 .card img {
   max-width: 100%;
-  text-align: left;
   border-radius: 10px;
 }
 .card-footer {
   background-color: #ccc;
-  color: rgb(53, 52, 52);
   display: flex;
   text-align: center;
-  justify-content: space-around;
+  justify-content: space-between;
+  width: 100%;
+}
+footer {
+  text-align: center;
+  padding: 15px;
+  color: #34efdb;
+  background-color: #4f7afb;
 }
