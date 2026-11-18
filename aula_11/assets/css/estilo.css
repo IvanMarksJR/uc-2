@@ -18,30 +18,37 @@ select {
   width: 100%;
   border-radius: 6px;
   margin: 8px;
-  height: 25px;
+  height: 26px;
   border-color: #adababcc;
 }
 .form-cadastro {
+  display: center;
+  flex-direction: column;
   max-width: 70%;
   background-color: #d4d6d8;
   padding: 28px;
   color: black;
 }
 .uma-coluna {
-  padding: 5px;
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
 }
 .uma-coluna label {
   width: 100%;
   padding: 5px;
 }
 .duas-coluna {
-  width: 200px;
-  padding: 5px;
   display: flex;
-  flex-direction: column;
+  text-align: left;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  justify-content: space-around;
 }
 label {
   flex-direction: column;
+}
+.tres-colunas {
+  display: grid;
+  gap: 24px;
+  justify-content: space-between;
 }
